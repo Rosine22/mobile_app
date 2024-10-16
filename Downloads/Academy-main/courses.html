@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAcademy - Sustainability Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .user-profile {
+            display: flex;
+            align-items: center;
+        }
+        .user-profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .course-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .course-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .course-info {
+            padding: 15px;
+        }
+        .course-title {
+            font-size: 18px;
+            margin: 0 0 10px 0;
+        }
+        .course-rating {
+            color:#007bff;
+        }
+        .course-duration {
+            color: #757575;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">GAcademy</div>
+        <div class="user-profile">
+            <img src="/images/profile.png" alt="User avatar">
+            <span>Rosine</span>
+        </div>
+    </header>
+    <main>
+        <h1>Sustainability</h1>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="/images/cr.png" alt="Microsoft Office">
+                <div class="course-info">
+                    <h2 class="course-title">Microsoft Office</h2>
+                    <div class="course-rating">★★★★☆ 4.5</div>
+                    <div class="course-duration">6 weeks</div>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="/images/cr2.png" alt="Know How To Use Chatgpt">
+                <div class="course-info">
+                    <h2 class="course-title">Know How To Use Chatgpt</h2>
+                    <div class="course-rating">★★★★☆ 4.5</div>
+                    <div class="course-duration">6 weeks</div>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="/images/cr3.png" alt="Google Suite">
+                <div class="course-info">
+                    <h2 class="course-title">Google Suite</h2>
+                    <div class="course-rating">★★★★☆ 4.5</div>
+                    <div class="course-duration">6 weeks</div>
+                </div>
+            </div>
+            <!-- Repeat the course-card div two more times to match the image -->
+        </div>
+    </main>
+</body>
+</html>

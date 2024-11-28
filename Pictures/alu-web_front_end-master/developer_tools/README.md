@@ -1,1 +1,0 @@
-Responsive design for the different tools

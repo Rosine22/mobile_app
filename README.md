@@ -44,7 +44,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/flutter-recipe-app.git
+git clone https://github.com/Rosine22/mobile_app.git
 cd flutter-recipe-app
 Install dependencies:
 

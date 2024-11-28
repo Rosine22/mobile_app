@@ -12,7 +12,6 @@ Allows navigation to the Meal Details Screen.
 
 Meal Details Screen:
 Displays detailed information about a specific meal, including:
-
 Meal name.
 Ingredients and their measurements.
 Cooking instructions in a scrollable layout.

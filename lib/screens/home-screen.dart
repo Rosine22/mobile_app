@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_recipe_app/screens/category-screen.dart';
 import 'api_service.dart';
-import 'category_screen.dart';
+import 'category-screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final ApiService apiService = ApiService();
